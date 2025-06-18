@@ -55,8 +55,20 @@ for pizza in pizzas:
 
 print(f"\n{pizzas[0].title()} pizza is a go to pizza and never fails.\n{pizzas[1].title()} pizza is a slept on and doesn't get enough credit.\n{pizzas[2].title()} pizza can either be hit or miss - it depends on the sausage.\n{pizzas[2].title()} pizza is controversial, but I stand with {pizzas[2]} pizza!")
 
+# 4-12
+
 pizzas.append('pepperoni')
 
-print(pizzas)
+friends_pizza = pizzas[:]
 
+friends_pizza.append('anchovy')
+
+print(f"\nMy favorite pizzas are:\n")
+for pizza in pizzas:
+    print(pizza)
+
+print(f"\nMy friend's favorite pizzas are:\n")
+
+for pizza in friends_pizza:
+    print(pizza)
 
