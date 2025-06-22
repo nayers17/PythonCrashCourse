@@ -12,7 +12,7 @@ users = {
     },
 }
 
-print(users['aeinstein'])
+# print(users['aeinstein'])
 
 for username, user_info in users['aeinstein'].items():
     print(f'{username.title()}: {user_info.title()}')

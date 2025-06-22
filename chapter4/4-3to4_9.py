@@ -1,10 +1,10 @@
 # 4-3
-# numbers = list(range(21))
-# for number in numbers:
-#     print(number)
+numbers = list(range(21))
+for number in numbers:
+    print(number)
 
 # 4-4    
-numbers = list(range(1000001))
+# numbers = list(range(1000001))
 # for number in numbers:
 #     print(number)
 
