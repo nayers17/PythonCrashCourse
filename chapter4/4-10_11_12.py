@@ -71,4 +71,3 @@ print(f"\nMy friend's favorite pizzas are:\n")
 
 for pizza in friends_pizza:
     print(pizza)
-
