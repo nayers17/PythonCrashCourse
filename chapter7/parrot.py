@@ -1,13 +1,25 @@
-message = input("Tell me something, and I will repeat it back to you: ")
-print(message)
+# message = input("Tell me something, and I will repeat it back to you: ")
+# print(message)
 
 
 # program runs as long as the user wants by putting program inside a while loop
 
-prompt = "\nTell me something, and I will repeat it back to you: "
+prompt = "\nTell me something, and I will repeat it back to you. "
 prompt += "\nEnter 'quit' to end the program: "
 
-message = ""
-while prompt != 'quit':
+# message = ""
+# while message != 'quit':
+#     message = input(prompt)
+    
+#     if message != 'quit':
+#         print(message)
+        
+active = True
+while active:
     message = input(prompt)
-    print(message)
+
+    if message == 'quit':
+        active = False
+    else:
+        print(message)
+        
